@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="css/style.css">
+  
+  <title>Single Product</title>
+  <style>
+    .small-img-group {
+      display: flex;
+      justify-content: space-between;
+    }
+    .small-img-col {
+      flex-basis: 24%;
+    }
+    .sproduct select {
+      display: block;
+      padding: 5px 10px;
+    }
+    .sproduct input {
+      width: 50px;
+      height: 40px;
+      padding-left: 10px;
+      font-size: 16px;
+      margin-right: 10px;
+    }
+    .sproduct input:focus {
+      outline: none;
+    }
+  </style>
+</head>
+<body>
+  <!-- START NAVBAR SECTION -->
+  <nav class="navbar navbar-expand-lg navbar-light py-3 fixed-top">
+    <div class="container">
+      <a class="logo" href="#"><h2>Ecommerce</h2></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="shop.html">Shop</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Blog</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Contact Us</a>
+          </li> 
+          <li class="nav-item icon">
+            <i class="far fa-heart"></i>
+            <i class="fas fa-cart-plus"></i>
+          </li>
+        </ul>    
+      </div>
+    </div>
+  </nav>  
+  <!-- END NAVBAR SECTION -->  
+  <!-- START SINGLE PRODUCT SECTION -->
+  <section class="container sproduct my-5 py-5">
+    <div class="row mt-5">
+      <div class="col-lg-5 col-md-12 col-12">
+        <img src="./img/shop/1.jpg" alt="" class="img-fluid w-100 pb-1" id="mainImg">
+        <div class="small-img-group">
+          <div class="small-img-col">
+            <img src="./img/shop/1.jpg" alt="" class="w-100 small-img">
+          </div>
+          <div class="small-img-col">
+            <img src="./img/shop/24.jpg" alt="" class="w-100 small-img">
+          </div>
+          <div class="small-img-col">
+            <img src="./img/shop/25.jpg" alt="" class="w-100 small-img">
+          </div>
+          <div class="small-img-col">
+            <img src="./img/shop/26.jpg" alt="" class="w-100 small-img">
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-6 col-md-12 col-12">
+        <h6>Home / T-Shirt</h6>
+        <h3>Men's Fashion T-Shirt</h3>
+        <h2>$132.00</h2>
+        <select class="my-3">
+          <option>Select Size</option>
+          <option>XL</option>
+          <option>XXL</option>
+          <option>Small</option>
+          <option>Large</option>
+        </select>
+        <input type="number" value="1">
+        <a href="" class="btn-main">Add To Cart</a>
+        <h4 class="my-4">Product Details</h4>
+        <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur labore quibusdam esse quia deleniti ipsam delectus fugiat cum modi quod totam, nesciunt a iusto distinctio dolores. Voluptatibus provident, reprehenderit id molestiae ipsa assumenda praesentium, quidem aspernatur commodi explicabo voluptates. Lorem ipsum dolor sit amet consectetur adipisicing elit. At aperiam placeat mollitia accusamus nobis consequuntur optio non quos, facere deleniti?</span>
+      </div>
+    </div>
+
+    <!-- START CLOTHES SECTION -->
+  <section id="clothes my-5">
+    <div class="container text-center mt-5 py-5">
+      <h2>Related Product</h2>
+      <hr class="mx-auto">
+    </div>
+    <div class="row mx-auto container-fluid">
+      <div class="product text-center col-lg-3 col-md-6 col-12">
+        <img src="./img/shop/6.jpg" alt="" class="img-fluid mb-3">
+      
+      <div class="star">
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+      </div>
+      <h5 class="p-name">Winter Jacket</h5>
+      <h4 class="p-price mb-3">$290</h4>
+      <a href="" class="features-btn">Shop Now</a>
+    </div>
+      <div class="product text-center col-lg-3 col-md-6 col-12">
+        <img src="./img/shop/8.jpg" alt="" class="img-fluid mb-3">
+      
+      <div class="star">
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+      </div>
+      <h5 class="p-name">Winter Hoodies</h5>
+      <h4 class="p-price mb-3">$163</h4>
+      <a href="" class="features-btn">Shop Now</a>
+    </div>
+      <div class="product text-center col-lg-3 col-md-6 col-12">
+        <img src="./img/shop/26.jpg" alt="" class="img-fluid mb-3">
+      
+      <div class="star">
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+      </div>
+      <h5 class="p-name">New T-Shirt</h5>
+      <h4 class="p-price mb-3">$66</h4>
+      <a href="" class="features-btn">Shop Now</a>
+    </div>
+      <div class="product text-center col-lg-3 col-md-6 col-12">
+        <img src="./img/shop/1.jpg" alt="" class="img-fluid mb-3">
+      
+      <div class="star">
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+      </div>
+      <h5 class="p-name">Brand Shirt</h5>
+      <h4 class="p-price mb-3">$18</h4>
+      <a href="" class="features-btn">Shop Now</a>
+    </div>
+    </div>
+  </section>
+  <!-- START CLOTHES SECTION -->
+  </section>
+  
+
+
+  <!-- END SINGLE PRODUCT SECTION -->
+  <!--  START FOOTER SECTION -->
+  <section id="footer" class="footer">
+    <footer class=" container mt-5 py-5">
+      <div class="row mx-auto pt-5">
+        <div class="footer-one col-lg-3 col-md-6 col-12">
+          <img src="./img/logo.png" alt="" class="my-3">
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam quis perspiciatis veritatis accusantium impedit quae incidunt, consequuntur dicta vel dolorum.</p>
+        </div>
+        <div class="footer-one col-lg-3 col-md-6 col-12 mt-4">
+          <h4 class="pb-2">Featured</h4>
+          <ul class="text-uppercase list-unstyled">
+            <li><a href="">Boys</a></li>
+            <li><a href="">Girls</a></li>
+            <li><a href="">Men</a></li>
+            <li><a href="">Women</a></li>
+            <li><a href="">Shoes</a></li>
+            <li><a href="">Watches</a></li>
+            <li><a href="">Clothes</a></li>
+            <li><a href="">Furniture</a></li>
+          </ul>
+        </div>
+        <div class="footer-one col-lg-3 col-md-6 col-12 mt-4">
+          <h4 class="pb-2 mt-2">Contact Us</h4>
+          <div>
+            <h5 class="text-uppercase">Address</h5>
+            <p>Jashore, Dhaka-Bangladesh</p>
+          </div>
+          <div>
+            <h5 class="text-uppercase">Phone</h5>
+            <p>+88 01765-480156</p>
+          </div>
+          <div>
+            <h5 class="text-uppercase">Email</h5>
+            <p>alaminhossendev@gmail.com</p>
+          </div>
+        </div>
+        <div class="footer-one col-lg-3 col-md-6 col-12 mt-4">
+          <h4 class="pb-2">Instagram</h4>
+          <div class="row">
+            <img src="./img/1.jpg" alt="" class="img-fluid w-25 h-100 m-2">
+            <img src="./img/3.jpg" alt="" class="img-fluid w-25 h-100 m-2">
+            <img src="./img/14.jpg" alt="" class="img-fluid w-25 h-100 m-2">
+            <img src="./img/11.jpg" alt="" class="img-fluid w-25 h-100 m-2">
+            <img src="./img/8.jpg" alt="" class="img-fluid w-25 h-100 m-2">
+            <img src="./img/22.jpg" alt="" class="img-fluid w-25 h-100 m-2">
+          </div>
+        </div>
+      </div>
+      <hr>
+      <div class="copyright mt-5">
+        <div class="container row mx-auto">
+          <div class="col-lg-3 col-md-6 col-12 mb-2">
+            <img src="./img/payment.png" alt="">
+          </div>
+          <div class="col-lg-3 col-md-6 col-12 text-nowrap">
+            <p>Coveg Ecommerce &copy; 2021. All Rights Reserved.</p>
+          </div>
+          <div class="col-lg-3 col-md-6 col-12 text-nowrap mx-auto">
+            <a href="" class="i fab fa-facebook-f"></a>
+            <a href="" class="i fab fa-youtube"></a>
+            <a href="" class="i fab fa-twitter"></a>
+            <a href="" class="i fab fa-linkedin-in"></a>
+          </div>
+          
+        </div>
+      </div>
+    </footer>
+  </section>
+  <!--  END FOOTER SECTION -->
+  
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+    <script>
+      var mainImg = document.getElementById('mainImg');
+      var smallImg = document.getElementsByClassName('small-img');
+
+      smallImg[0].onclick = function() {
+        mainImg.src = smallImg[0].src;
+      }
+      smallImg[1].onclick = function() {
+        mainImg.src = smallImg[1].src;
+      }
+      smallImg[2].onclick = function() {
+        mainImg.src = smallImg[2].src;
+      }
+      smallImg[3].onclick = function() {
+        mainImg.src = smallImg[3].src;
+      }
+    </script>
+  </body>
+  </html>
